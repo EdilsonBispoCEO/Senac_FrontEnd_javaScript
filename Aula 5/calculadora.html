@@ -140,6 +140,24 @@
     }
 
     function Limpar(limpar){
+        if (limpar == 'C'){
+            document.getElementById('resultado').innerHTML = ''
+            valor1 = 0
+            valor2 = 0
+            operador = ''
+            total = 0
+        }
+
+        if (limpar == '<') {
+            valor =  document.getElementById('resultado').innerHTML
+            valor = valor.split('')
+            novo_valor = ''
+
+            for (let i = 0; i < valor.length -1; i++) {
+                novo_valor += valor[i] 
+            }
+            document.getElementById('resultado').innerHTML = novo_valor
+        } 
 
     }
 
