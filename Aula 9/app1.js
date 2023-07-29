@@ -4,7 +4,7 @@ const divElement =  document.getElementById('resultadoMensagem');
    //  alert('Você clicou no botão')
 
      const numeroInput  = document.getElementById('numeroInput').value
-     if (numeroInput < 10) { // aqui você esta verificando se o numero é MENOR que 10
+     if (numeroInput > 10) { // aqui você esta verificando se o numero é MENOR que 10
         divElement.classList.remove('button-green') 
        // alert('O numero é Maior que 10') 
        // buttonElement.classList.add('button-red')  
